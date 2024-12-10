@@ -1,0 +1,413 @@
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: "Work Sans", serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    nav ul {
+        display: flex;
+    }
+    header{
+        font-family: "Red Hat Display", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+    }
+    nav ul li{
+        margin-left: 25px;
+        margin-right: 20px;
+        list-style: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        letter-spacing: 3px;
+        transition: color 0.3s ease;
+    }
+    nav ul a:hover{
+        color: #51351f;
+    }
+    nav ul a{
+        text-decoration: none;
+        color: #55504b;
+    }
+    nav{
+        background-color: #ede9e2;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 100px;
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        padding: 10px 20px; 
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+        z-index: 1000;
+        margin-bottom: 10px;
+        height: 60px;
+    }
+    header nav input{
+        height: 40px;
+        width: 320px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border: 0 solid;
+        color: #ede9e2;
+    }
+    header nav input::placeholder{
+        padding-left: 25px;
+        color: #55504b;
+        letter-spacing: 4px;
+    }
+    .icon{
+        margin: 20px;
+        font-size: 25px;
+
+    }
+    .icon2{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .icon a{
+        text-decoration: none;
+        color: #20150b;
+    }
+    nav h3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family: "Baskervville", serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 20px;
+    }
+    nav h3 span{
+        color: #20150b;
+    }
+    .search-box i{
+        transform: translate(-35px,2px);
+        font-size: 20px;
+    }
+    .dropdown {
+        position: relative; /* Position parent for submenu alignment */
+    }
+    
+    .submenu {
+        display: none; /* Hidden by default */
+        position: absolute;
+        left: 0;
+        background-color: #ede9e2;
+        padding: 5px 0;
+        list-style: none;
+    }
+    
+    .submenu li {
+        padding: 10px 20px;
+        font-size: 14px;
+        color: #55504b;
+        white-space: nowrap; /* Prevent wrapping */
+    }
+    
+    .submenu li:hover {
+        background-color: #dcd6ca;
+        color: #20150b;
+    }
+    
+    .submenu li a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .dropdown:hover .submenu {
+        display: block; /* Show dropdown on hover */
+    }
+main{
+    padding-top: 70px;
+}
+.firstpage {
+    height: 120vh;
+    width: 100%; 
+    background-image: url(picture/background.png);
+    background-size: cover;
+    background-position: center; 
+}
+.welcome{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 100px;
+}
+.title button{
+    height: 35px;
+    width: 150px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 0 solid;
+    transition:  0.3s ease;
+    cursor: pointer;
+    color: #20150b;
+}
+.title button:hover{
+    background-color:#20150b;
+    color: #ede9e2;
+}
+
+.title button i{
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+    transform: translateY(3px);
+}
+.title{
+    font-size: 20px;
+    color:#ede9e2;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 50px;
+
+
+}
+.title-container{
+    font-family: "Basic", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    transform: scale(1.5, 1); /* Stretch horizontally (1.5x) */
+
+}
+.title-container h1{
+    font-size: 120px;
+    color: #ede9e2;
+    text-align: center;
+    letter-spacing: 15px;
+    line-height: 0.8;
+}
+
+.title-container p{
+    font-size: 50px;
+    color: #ede9e2;
+    text-align: center;
+}
+.about h1{
+    font-size: 60px;
+    margin-left: 30px;
+}
+.about p{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.about h1 span{
+    color: #51351f;
+}
+.about ul{
+    display: flex;
+}
+.about ul li{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    list-style: none;
+    font-size: 30px;
+    color:#51351f;
+    
+}
+ .about ul h5{
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+    margin-top: 0;
+} 
+.background{
+    background-image: url('picture/backgroundpaper.png');
+
+}
+.about{
+    display: flex;
+    justify-content: space-around;    
+    width: 100%;
+}
+.about video{
+    background-color: #fff;
+     border-radius: 15px;
+     box-shadow: 0 0 100px #51351f;  
+     margin: 20px;
+     margin-top: 150px;
+
+} 
+.first{
+    margin-top: 150px;
+}
+.products{
+
+    background-size: cover;
+    width: 100%;
+}
+.titleproduct{
+    margin-left: 25px;
+
+}
+.titleproduct h3{
+    font-size: 50px;
+}
+.titleproduct h4{
+    font-weight: 300;
+    font-size: 30px;
+    
+}
+img{
+    mix-blend-mode: multiply;
+}
+.all{
+    display: flex;
+    justify-content: space-around;   
+    font-size: 10px;
+    text-align:center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.all span{
+    color: #51351f;
+}
+.all h3{
+    font-size: 15px;
+}
+.backimg{
+    border: 2px solid;
+    padding: 15px;
+    background-color: #f4f4f4;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
+}
+.all button{
+    border: 1px solid;
+    height: 44px;
+    background-color: white;
+    width: 130px;
+    cursor: pointer;
+    color: #51351f;
+    transition:  0.3s ease;
+    
+}
+.all button:hover{
+    background-color: #51351f;
+    color: #ede9e2;
+
+}
+.all i{
+    margin-right: 10px;
+}
+.subscribe{
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+.subscribe h2{
+    font-size: 130px;
+    text-align: center;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 0.9;
+}
+
+.subscribe h2 span{
+    color: #51351f;
+    font-weight: 400;
+}
+.subscribe p{
+    text-align: center;
+    font-size: 25px;
+    line-height: 0.7;
+
+}
+.subscribe ul{
+    text-align: center;
+    list-style: none;
+    font-size: 18px;
+}
+.subscribe button{
+    height: 35px;
+    width: 150px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 1px solid;
+    transition:  0.3s ease;
+    cursor: pointer;
+    color: #20150b;
+}
+.subscribe button:hover{
+    background-color:#20150b;
+    color: #ede9e2;
+}
+.buttoncenter{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+.contactus{
+    background-image: url(picture/backgroundfooter.png);
+    background-size: 100vh;
+    height: 35vh;
+    width: 100%;
+}
+.contact-email{
+    display: flex;
+    justify-content: space-around;
+    color: #f4f4f4;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.contact-email input{
+    background-color: black;
+    color: white;
+    border: 0 solid;
+    height: 45px;
+    width: 300px;
+    padding-left: 25px;
+    margin-top: 80px;
+}
+.contact-email input::placeholder{
+    color: white;
+    padding-left: 25px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.contact-email button{
+    border: 0 solid;
+    background-color: #f4f4f4;
+    color: black;
+    height: 35px;
+    width: 90px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+  transform: translateX(-100px);
+  cursor: pointer;
+}
+.contact-email button:hover{
+    background-color: #51351f;
+    color: beige;
+}
+.contact-email h3{
+    font-size: 30px;
+    color:white;
+    font-weight: 800;
+}
+.contact-email h3 span{
+    font-weight: 400;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutus p {
+    font-weight: 400;
+}

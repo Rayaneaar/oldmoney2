@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+nav ul {
+    display: flex;
+}
+header{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+nav ul li{
+    margin-left: 25px;
+    margin-right: 20px;
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    transition: color 0.3s ease;
+}
+nav ul a:hover{
+    color: #51351f;
+}
+nav ul a{
+    text-decoration: none;
+    color: #55504b;
+}
+nav{
+    background-color: #ede9e2;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    /* position: fixed;  */
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    z-index: 1000;
+    margin-bottom: 10px;
+    height: 60px;
+}
+header nav input{
+    height: 40px;
+    width: 320px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0 solid;
+    color: #ede9e2;
+}
+header nav input::placeholder{
+    padding-left: 25px;
+    color: #55504b;
+    letter-spacing: 4px;
+}
+.icon{
+    margin: 20px;
+    font-size: 25px;
+
+}
+.icon2{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.icon a{
+    text-decoration: none;
+    color: #20150b;
+}
+nav h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Baskervville", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+nav h3 span{
+    color: #20150b;
+}
+.search-box i{
+    transform: translate(-35px,2px);
+    font-size: 20px;
+}
+.dropdown {
+    position: relative; /* Position parent for submenu alignment */
+}
+
+.submenu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    left: 0;
+    background-color: #ede9e2;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.submenu li {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #55504b;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.submenu li:hover {
+    background-color: #dcd6ca;
+    color: #20150b;
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown:hover .submenu {
+    display: block; /* Show dropdown on hover */
+}
+.firstpage{
+    height: 100vh;
+    width: 100%; 
+    background-image: url(menbackground.png);
+    background-size: cover;
+    background-position: center; 
+}
+.mendiscount{
+    text-align: center;
+    margin-top: 150px;
+}
+.mendiscount button{
+    height: 50px;
+    width: 300px;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 0 solid;
+    transition:  0.3s ease;
+    cursor: pointer;
+    color: #20150b;
+    /* margin-left: 400px; */
+}
+.mendiscount button:hover{
+    background-color:#20150b;
+    color: #ede9e2;
+}
+.mendiscount h2{
+    font-size: 70px;
+    color: white;
+}
+main{
+    background-color: #0f0e0c;
+    color: #dcd6ca;
+}
+main img{
+    mix-blend-mode: multiply;
+}
+.all{
+    display: flex;
+    justify-content: space-around;   
+    font-size: 10px;
+    text-align:center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.all span{
+    color: #51351f;
+}
+.all h3{
+    font-size: 15px;
+}
+.backimg{
+    border: 2px solid;
+    padding: 15px;
+    background-color: #f4f4f4;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
+}
+.all button{
+    border: 1px solid;
+    height: 44px;
+    background-color: white;
+    width: 130px;
+    cursor: pointer;
+    color: #51351f;
+    transition:  0.3s ease;
+    
+}
+.all button:hover{
+    background-color: #51351f;
+    color: #ede9e2;
+
+}
+.all i{
+    margin-right: 10px;
+}

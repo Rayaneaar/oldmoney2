@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #0f0e0c;
+    color: #ede9e2;
+}
+
+nav ul {
+    display: flex;
+}
+header{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+nav ul li{
+    margin-left: 25px;
+    margin-right: 20px;
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    transition: color 0.3s ease;
+}
+nav ul a:hover{
+    color: #51351f;
+}
+nav ul a{
+    text-decoration: none;
+    color: #55504b;
+}
+nav{
+    background-color: #ede9e2;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    /* position: fixed;  */
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    z-index: 1000;
+    margin-bottom: 10px;
+    height: 60px;
+}
+header nav input{
+    height: 40px;
+    width: 320px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0 solid;
+    color: #ede9e2;
+}
+header nav input::placeholder{
+    padding-left: 25px;
+    color: #55504b;
+    letter-spacing: 4px;
+}
+.icon{
+    margin: 20px;
+    font-size: 25px;
+
+}
+.icon2{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.icon a{
+    text-decoration: none;
+    color: #20150b;
+}
+nav h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Baskervville", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+nav h3 span{
+    color: #20150b;
+}
+.search-box i{
+    transform: translate(-35px,2px);
+    font-size: 20px;
+}
+.dropdown {
+    position: relative; /* Position parent for submenu alignment */
+}
+
+.submenu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    left: 0;
+    background-color: #ede9e2;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.submenu li {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #55504b;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.submenu li:hover {
+    background-color: #dcd6ca;
+    color: #20150b;
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown:hover .submenu {
+    display: block; /* Show dropdown on hover */
+}
+.test{
+    width: 920px;
+    height: 500px;
+    background-image: url(women/womenback.png);
+    border-radius: 15px;
+
+}
+.women1{
+    margin-left: 25px;
+}
+.test h1{
+    font-size: 80px;
+    padding-left: 20px;
+    line-height: 0.75;
+    padding-top: 350px;
+}
+.test h1 span{
+    font-weight: 300;
+}
+.test2{
+    background-color: #202020;
+    border-radius: 20px;
+    width: 920px;
+    height: 80px;
+    text-align: left;
+}
+.test2 p{
+    padding-left: 15px;
+    padding-top: 10px;
+}
