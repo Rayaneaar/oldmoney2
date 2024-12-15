@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #f1eded;
+}
+
+nav ul {
+    display: flex;
+}
+header{
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+nav ul li{
+    margin-left: 25px;
+    margin-right: 20px;
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    transition: color 0.3s ease;
+}
+nav ul a:hover{
+    color: #51351f;
+}
+nav ul a{
+    text-decoration: none;
+    color: #55504b;
+}
+nav{
+    background-color: #ede9e2;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    /* position: fixed;  */
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+    z-index: 1000;
+    margin-bottom: 10px;
+    height: 60px;
+}
+header nav input{
+    height: 40px;
+    width: 320px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0 solid;
+    color: #ede9e2;
+}
+header nav input::placeholder{
+    padding-left: 25px;
+    color: #55504b;
+    letter-spacing: 4px;
+}
+.icon{
+    margin: 20px;
+    font-size: 25px;
+
+}
+.icon2{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.icon a{
+    text-decoration: none;
+    color: #20150b;
+}
+nav h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Baskervville", serif;
+    font-weight: 700;
+
+    font-size: 20px;
+}
+nav h3 span{
+    color: #55504b;
+}
+.search-box i{
+    transform: translate(-35px,2px);
+    font-size: 20px;
+}
+.dropdown {
+    position: relative; /* Position parent for submenu alignment */
+}
+
+.submenu {
+    display: none; /* Hidden by default */
+    position: absolute;
+    left: 0;
+    background-color: #ede9e2;
+    padding: 5px 0;
+    list-style: none;
+}
+
+.submenu li {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #55504b;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+.submenu li:hover {
+    background-color: #dcd6ca;
+    color: #20150b;
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown:hover .submenu {
+    display: block; /* Show dropdown on hover */
+}
+.title h2{
+    font-size: 50px; 
+    text-align: center; 
+}
+
+.main{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.main i{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+}
+.main h1{
+    font-size: 80px;
+    color: #51351f;
+}
+.main h1 span{
+    font-size: 15px;
+}
+.firstpack{
+    border: 3px solid;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 550px;
+    border-radius: 15px;
+    background-color: white;
+}
+.secondpack{
+    border: 3px solid;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: #f1e58a;
+}
+.thirdpack{
+    border: 3px solid;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 660px;
+    border-radius: 15px;
+    background-color: white;
+}
+.main button{
+    text-align: center;
+    width: 250px;
+    height: 44px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #f1eded;
+    font-weight: 550;
+    border: 1px solid;
+    transition: 0.3s ease;
+    margin-top: 15px;
+}
+.main button:hover{
+    background-color: black;
+    color: #f1eded;
+}
+.firstpack button{
+    margin-left: 60px;
+}
+.secondpack button{
+    background-color: black;
+    color: #f1eded;
+    margin-left: 25px;
+}
+.thirdpack button{
+    margin-left: 25px;
+}
+.secondpack button:hover{
+    background-color: #f1eded;
+    color: black;
+}

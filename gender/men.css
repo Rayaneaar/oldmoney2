@@ -37,16 +37,14 @@ nav{
     background-color: #ede9e2;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
-    /* position: fixed;  */
+    position: fixed; 
     top: 0; 
     left: 0; 
     width: 100%; 
     padding: 10px 20px; 
     box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
     z-index: 1000;
-    margin-bottom: 10px;
-    height: 60px;
+    /* height: 60px; */
 }
 header nav input{
     height: 40px;
@@ -126,9 +124,10 @@ nav h3 span{
     height: 100vh;
     width: 100%; 
     background-image: url(menbackground.png);
-    background-size: cover;
-    background-position: center; 
-}
+    background-size: cover; /* Ensure the background covers the entire area */
+    background-position: center; /* Center the background image */
+    padding-top: 60px; /* Add padding to compensate for the fixed navbar height */
+ }
 .mendiscount{
     text-align: center;
     margin-top: 150px;
@@ -155,9 +154,13 @@ nav h3 span{
 main{
     background-color: #0f0e0c;
     color: #dcd6ca;
+    padding-top: 60px; 
+    margin-bottom: 150px;
 }
-main img{
-    mix-blend-mode: multiply;
+.men-section>h2{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 .all{
     display: flex;
@@ -166,6 +169,7 @@ main img{
     text-align:center;
     margin-top: 25px;
     margin-bottom: 35px;
+    flex-wrap: wrap;
 }
 .all span{
     color: #51351f;
@@ -176,9 +180,14 @@ main img{
 .backimg{
     border: 2px solid;
     padding: 15px;
+    border-radius: 15px;
     background-color: #f4f4f4;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: rgb(230, 230, 230) 0px 20px 30px -10px;    
 }
+.backimg:hover{ 
+    transform: translateY(-10px);
+     box-shadow: rgb(210, 211, 212) 0px 30px 40px -15px; }
 .all button{
     border: 1px solid;
     height: 44px;
@@ -187,13 +196,89 @@ main img{
     cursor: pointer;
     color: #51351f;
     transition:  0.3s ease;
+    border-radius: 22px;
     
 }
 .all button:hover{
     background-color: #51351f;
     color: #ede9e2;
+    transform: translateY(-5px);
 
 }
 .all i{
     margin-right: 10px;
+}
+.contactus{
+    background-image: url(../picture/backgroundfooter.png);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-email{
+    display: flex;
+    justify-content: space-around;
+    color: #f4f4f4;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    margin-top: 0;
+}
+.contact-email input{
+    background-color: black;
+    color: white;
+    border: 0 solid;
+    height: 45px;
+    width: 300px;
+    padding-left: 25px;
+    margin-top: 0;
+}
+.contact-email input::placeholder{
+    color: white;
+    padding-left: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.contact-email button{
+    border: 0 solid;
+    background-color: #f4f4f4;
+    color: black;
+    height: 35px;
+    width: 90px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    transform: translateX(-100px);
+    cursor: pointer;
+}
+.contact-email button:hover{
+    background-color: #51351f;
+    color: beige;
+}
+.contact-email h3{
+    font-size: 30px;
+    color:white;
+    font-weight: 800;
+}
+.contact-email h3 span{
+    font-weight: 400;
+}
+.aboutus{
+    display: flex;
+    justify-content: space-around;
+}
+.aboutus p {
+    font-weight: 400;
+}
+.bottom{
+    margin-bottom: 50px;
 }

@@ -1,0 +1,71 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+}
+.login-menu{
+    background-color: #20150b;
+    color: white;
+    width: 500px;
+    height: 700px;
+    
+}
+.login-menu h2{
+    font-size: 50px;
+    font-weight: 450;
+    text-align: center;
+}
+.login-menu h2 span{
+    font-size: 15px;
+    font-weight: 450; 
+    line-height: 0.5;
+}
+.login-menu h2 span a{
+    color: white;
+}
+.data{
+    margin-top: 100px;
+}
+.data input{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px solid;
+    margin-left: 80px;
+}
+.data label{
+    text-align: left;
+    margin-left: 80px;
+
+}
+.passwordforget{
+    margin-left: 80px;
+}
+.passwordforget label{
+    margin-right: 19px;
+}
+.passwordforget a{
+    color: white;
+}
+.login-background{
+    margin-top: 50px;
+}
+.passwordforget button{
+    height: 44px;
+    width: 320px;
+    margin-top: 23px;
+    border-radius: 5px;
+    border: 0px solid ;
+    color: white;
+    background-color: #97561c;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 15px;
+}
+.passwordforget button:hover{
+    background-color: #ac5a11;
+}
